@@ -12,7 +12,7 @@ const Navbar1 = () => {
 
   return (
     <div className="flex justify-center w-full py-6 px-4 z-50 absolute">
-      <div className="flex items-center justify-between px-6 py-3 bg-neutral-100 border-[1px] border-neutral-300 rounded-full w-[90%] relative z-10">
+      <div className="flex items-center justify-between px-6 py-3 bg-neutral-100 border-[1px] border-neutral-300 rounded-full w-full md:w-[90%] relative z-10">
         <div className="flex items-center">
           <motion.div
             className="w-8 h-8 mr-6"
@@ -67,8 +67,8 @@ const Navbar1 = () => {
         </motion.div>
 
         {/* Mobile Menu Button */}
-        <motion.button className="md:hidden flex items-center" onClick={toggleMenu} whileTap={{ scale: 0.9 }}>
-          <Menu className="h-6 w-6 text-gray-900" />
+        <motion.button className="md:hidden flex items-center bg-neutral-900 rounded-full p-2" onClick={toggleMenu} whileTap={{ scale: 0.9 }}>
+          <Menu className="size-4 text-white" />
         </motion.button>
       </div>
 

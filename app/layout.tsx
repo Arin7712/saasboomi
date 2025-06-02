@@ -19,7 +19,7 @@ export default function RootLayout({
       <body
         className={font.className}
       >
-        <div className="py-4 md:px-0 px-4 flex flex-col gap-1 items-center justify-center text-center bg-neutral-900 z-50 relative text-neutral-100">
+        <div className="py-4 md:px-0 px-8 flex flex-col gap-1 items-center justify-center text-center bg-neutral-900 z-50 relative text-neutral-100">
           <h1 className="md:text-sm text-xs">🎉 Join 25+ SaaS and AI startup founders shaping the future of sales hiring 🎉</h1>
           {/* <h1 className="text-sm">Early access is limited — priority goes to teams hiring in the next 60 days.</h1> */}
         </div>

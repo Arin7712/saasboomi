@@ -80,7 +80,7 @@ const Hero = () => {
           variants={fadeIn(0.9)}
           initial="hidden"
           animate="visible"
-          className="flex md:flex-row flex-col items-center absolute bottom-[5%] md:bottom-[10%] gap-2"
+          className="flex md:flex-row flex-col items-center absolute bottom-[15%] md:bottom-[10%] gap-2"
         >
           <AvatarCirclesDemo />
           <p className="text-xs max-w-xs">
