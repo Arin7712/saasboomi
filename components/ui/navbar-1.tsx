@@ -12,7 +12,7 @@ const Navbar1 = () => {
 
   return (
     <div className="flex justify-center w-full py-6 px-4 z-50 absolute">
-      <div className="flex items-center justify-between px-6 py-3 bg-neutral-100 border-[1px] border-neutral-300 rounded-full w-full md:w-[90%] relative z-10">
+      <div className="flex items-center justify-between px-4 md:px-6 md:py-3 py-2 bg-neutral-100 border-[1px] border-neutral-300 rounded-full w-full md:w-[90%] relative z-10">
         <div className="flex items-center">
           <motion.div
             className="w-8 h-8 mr-6"
