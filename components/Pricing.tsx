@@ -136,7 +136,7 @@ const Pricing = () => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
           >
-            <Button className="bg-neutral-800 rounded-full font-medium py-4">
+            <Button className="bg-neutral-800 rounded-full w-full font-medium py-4">
               Get started
             </Button>
           </motion.div>

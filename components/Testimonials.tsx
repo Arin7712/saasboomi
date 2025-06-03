@@ -108,7 +108,7 @@ const Testimonials = () => {
           <motion.div
             variants={fadeInUp}
             custom={testimonials.length + 3}
-            className="flex gap-4 pt-2 justify-center items-center"
+            className="flex gap-4 pt-4 justify-center items-center"
           >
             <Button onClick={() => api?.scrollPrev()} className="bg-neutral-800 rounded-full p-2">
               <ArrowRight className="size-4 -rotate-180 fill-white" />
