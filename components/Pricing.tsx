@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 const Pricing = () => {
   return (
     <div className="flex flex-col h-auto justify-center items-center px-6 md:px-[8rem] bg-neutral-50 pt-[6rem] py-[6rem] text-neutral-800">
-      <div className="flex md:flex-row flex-col justify-center md:justify-between items-center pt-4 min-w-full md:min-w-6xl">
+      <div className="flex md:flex-row flex-col justify-center md:justify-between items-center pt-4 md:min-w-6xl">
         <div className="flex flex-col gap-3 max-w-lg">
           <div className="bg-[#cfff92] w-fit border-[1px] border-neutral-300 text-xs rounded-full px-6 py-1 uppercase z-50">
             <p>✨ About</p>

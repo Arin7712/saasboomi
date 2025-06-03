@@ -13,7 +13,7 @@ const page = () => {
       <Hero />
       <Benefit />
       <Pricing />
-      <div className="flex relative flex-col h-[70vh] justify-between items-center text-center rounded-4xl mx-6 md:mx-[6rem] bg-[#cfff92] mt-[6rem] mb-[6rem] p-[4rem] text-neutral-800">
+      <div className="flex relative flex-col h-[70vh] justify-between items-center text-center rounded-4xl mx-6 md:mx-[6rem] bg-[#cfff92] mt-[6rem] mb-[6rem] p-6 md:p-[4rem] text-neutral-800">
               <AnimatedGridPattern
                 numSquares={20}
                 maxOpacity={0.1}

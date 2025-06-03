@@ -26,7 +26,7 @@ const Benefit = () => {
 
       <div className="flex md:flex-row flex-col gap-14 w-full md:max-w-4xl items-center justify-center pt-[4rem]">
         {/* Tangible Tools */}
-        <div className="rounded-3xl bg-stone-200 p-4 w-[85%] md:min-w-[40%] hover:cursor-pointer hover:scale-[1.006] duration-300 transition-all">
+        <div className="rounded-3xl bg-stone-200 p-4 w-full md:min-w-[40%] hover:cursor-pointer hover:scale-[1.006] duration-300 transition-all">
           <div className="rounded-3xl bg-neutral-800 p-6 text-white min-h-[60vh]">
             <h1 className="text-2xl font-medium tracking-tighter text-center underline underline-offset-4">
               Tangible Tools
@@ -68,7 +68,7 @@ const Benefit = () => {
         </div>
 
         {/* Behavioral Assessments */}
-        <div className="rounded-3xl bg-neutral-800 p-4 w-[85%] md:min-w-[40%] hover:cursor-pointer hover:scale-[1.006] duration-300 transition-all">
+        <div className="rounded-3xl bg-neutral-800 p-4 w-full md:min-w-[40%] hover:cursor-pointer hover:scale-[1.006] duration-300 transition-all">
           <div className="rounded-3xl bg-neutral-100 p-6 text-neutral-800 min-h-[60vh]">
             <h1 className="text-2xl font-medium tracking-tighter text-center underline underline-offset-4">
               Strategic Support
