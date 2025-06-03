@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 const Pricing = () => {
   return (
     <div className="flex flex-col h-auto justify-center items-center px-6 md:px-[8rem] bg-neutral-50 pt-[6rem] py-[6rem] text-neutral-800">
-      <div className="flex md:flex-row flex-col justify-center md:justify-between items-center pt-4 md:min-w-6xl">
+      <div className="flex md:flex-row flex-col justify-center md:justify-between items-center pt-4 w-full md:w-6xl">
         <div className="flex flex-col gap-3 max-w-lg">
           <div className="bg-[#cfff92] w-fit border-[1px] border-neutral-300 text-xs rounded-full px-6 py-1 uppercase z-50">
             <p>✨ About</p>
@@ -23,7 +23,7 @@ const Pricing = () => {
             Get started for free <ArrowRight className="size-5"/>
           </Button>
         </div>
-        <div className="rounded-xl bg-neutral-100 border-[1px] flex flex-col gap-6 border-neutral-300 p-6 w-sm mt-[4rem]">
+        <div className="rounded-xl bg-neutral-100 border-[1px] flex flex-col gap-6 border-neutral-300 p-6 w-full md:w-sm mt-[4rem]">
           <div className="flex justify-between items-center">
             <BellPlus />
             <h1 className="text-neutral-500 text-md">
