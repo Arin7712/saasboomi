@@ -6,6 +6,7 @@ import { AnimatedGridPattern } from "./magicui/grid-pattern";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 import { AvatarCirclesDemo } from "./AvatarCirclesDemo";
+import { ArrowRight } from "lucide-react";
 
 const fadeIn = (delay = 0) => ({
   hidden: { opacity: 0, y: 20 },
@@ -71,8 +72,8 @@ const Hero = () => {
           animate="visible"
           className="flex items-center"
         >
-          <Button className="bg-neutral-800 px-6 rounded-full py-6 z-50">
-            Apply for early access →
+          <Button className="bg-neutral-800 px-6 rounded-full py-6 z-50 hover:cursor-pointer">
+            Apply for early access <ArrowRight className="size-5"/>
           </Button>
         </motion.div>
 
