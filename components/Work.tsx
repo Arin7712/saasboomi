@@ -68,9 +68,9 @@ const Work = () => {
         </div>
 
         {/* Step Cards */}
-        <div className="absolute w-[50%] top-[25%] left-[22%] md:left-[25%] -translate-x-1/2 -translate-y-1/2 px-4 py-2 text-sm flex flex-col md:text-center md:items-center gap-1">
+        <div className="absolute w-[50%] top-[22%] md:top-[25%] left-[22%] md:left-[25%] -translate-x-1/2 -translate-y-1/2 px-4 py-2 text-sm flex flex-col md:text-center md:items-center gap-1">
           <CalendarCheck className="bg-neutral-800 rounded-md p-2 size-10 md:size-12 mb-4" />
-          <h1 className="md:text-2xl text-lg tracking-tight">
+          <h1 className="md:text-2xl text-md tracking-tight leading-tight">
             Tell us who you are hiring
           </h1>
           <p className="md:text-sm text-xs text-neutral-400 max-w-xs">
@@ -78,9 +78,9 @@ const Work = () => {
             Share your goals, role requirements, and must-haves.
           </p>
         </div>
-        <div className="absolute w-[50%] top-[25%] right-[22%] md:right-[25%] translate-x-1/2 -translate-y-1/2  px-4 py-2  text-sm flex flex-col md:text-center md:items-center gap-1">
+        <div className="absolute w-[50%] top-[22%] md:top-[25%] right-[25%] translate-x-1/2 -translate-y-1/2  px-4 py-2  text-sm flex flex-col md:text-center md:items-center gap-1">
           <TvMinimalPlay className="bg-neutral-800 rounded-md p-2 size-10 md:size-12 mb-4" />
-          <h1 className="md:text-2xl text-lg tracking-tight">
+          <h1 className="md:text-2xl text-md tracking-tight leading-tight">
             We screen for you
           </h1>
           <p className="md:text-sm text-xs text-neutral-400 max-w-xs">
@@ -90,7 +90,7 @@ const Work = () => {
         </div>
         <div className="absolute w-[50%] bottom-[20%] md:bottom-[25%] left-[22%] md:left-[25%] -translate-x-1/2 translate-y-1/2  px-4 py-2 text-sm flex flex-col md:text-center md:items-center gap-1">
           <FileUser className="bg-neutral-800 rounded-md p-2 size-10 md:size-12 mb-4" />
-          <h1 className="md:text-2xl text-lg tracking-tight">
+          <h1 className="md:text-2xl text-md tracking-tight leading-tight">
             You get a ranked shortlist
           </h1>
           <p className="md:text-sm text-xs text-neutral-400 max-w-xs">
@@ -101,9 +101,9 @@ const Work = () => {
 
           </p>{" "}
         </div>
-        <div className="absolute w-[50%] bottom-[20%] md:bottom-[25%] right-[22%] md:right-[25%] translate-x-1/2 translate-y-1/2 px-4 py-2 flex flex-col md:text-center md:items-center gap-1 text-sm">
+        <div className="absolute w-[50%] bottom-[20%] md:bottom-[25%] right-[25%] translate-x-1/2 translate-y-1/2 px-4 py-2 flex flex-col md:text-center md:items-center gap-1 text-sm">
           <LaptopMinimalCheck className="bg-neutral-800 rounded-md p-2 size-10 md:size-12 mb-4" />
-          <h1 className="md:text-2xl text-lg tracking-tight">
+          <h1 className="md:text-2xl text-md tracking-tight leading-tight">
             Hire with confidence
  
           </h1>
