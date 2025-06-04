@@ -13,6 +13,7 @@ import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import { motion } from "framer-motion";
+import Pricing2 from "@/components/Pricing2";
 
 // Variant generator with delay
 const fadeInUpWithDelay = (delay: number) => ({
@@ -33,6 +34,7 @@ const page = () => {
     <div>
       <Hero />
       <Benefit />
+      <Pricing2/>
       <Pricing />
       <Work />
       <Testimonials />

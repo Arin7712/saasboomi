@@ -21,7 +21,7 @@ const fadeInVariant = (delay = 0) => ({
 
 const Benefit = () => {
   return (
-    <div className="flex flex-col items-center h-auto px-6 md:px-[6rem] bg-neutral-50 pt-[6rem] text-neutral-800">
+    <div className="flex flex-col items-center h-auto px-6 md:px-[6rem] bg-neutral-50 py-[6rem] text-neutral-800">
       <motion.div
         variants={fadeInVariant(0)}
         initial="hidden"
