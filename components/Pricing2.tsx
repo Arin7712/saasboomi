@@ -53,7 +53,7 @@ const Sales = () => {
 
       <div className="flex md:flex-col flex-col gap-10 pt-[4rem]">
         {/* Card 1 */}
-        <motion.div
+        {/* <motion.div
           variants={fadeInVariant(0.4)}
           initial="hidden"
           whileInView="visible"
@@ -144,7 +144,7 @@ const Sales = () => {
               </div>
             </motion.div>
           </motion.div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Card 2 */}
         <motion.div
@@ -174,8 +174,7 @@ const Sales = () => {
               className="border-b-[1px] border-neutral-700 pb-4"
             >
               <h1 className="text-neutral-700 text-sm max-w-md">
-                But for SaaSBOOMi’s first cohort, this is completely free — in
-                exchange for your feedback and insights as we build.
+                Usually a shortlist for a role would cost RS 50000 or 2% of CTC (whichever id lower) but for SaasBoomi founders this is completely free in exchange of feedback on the project as we build
               </h1>
             </motion.div>
 

@@ -107,25 +107,21 @@ const Benefit = () => {
         >
           <div className="rounded-3xl bg-neutral-100 p-6 text-neutral-800 min-h-[60vh]">
             <h1 className="text-2xl font-medium tracking-tighter text-center underline underline-offset-4">
-              Strategic Support
+              Clear Outcomes
             </h1>
             <div className="flex flex-col pt-[2rem] gap-6 p-3">
               {[
                 {
                   icon: <UserSearch />,
-                  title: "6 months of guided hiring",
-                  desc: "We help you find the right reps, faster",
+                  title: "1 high-signal shortlist for you next hire",
+                  desc: "See you candidates in action before your first interview",
                 },
                 {
                   icon: <Calendar1 />,
                   title: "1:1 Session",
-                  desc: "Tailored sessions to scope and calibrate",
+                  desc: "CTC, motion, role, messaging and onboarding",
                 },
-                {
-                  icon: <IdCard />,
-                  title: "Pricing that scales with you",
-                  desc: "Price is based on your team size",
-                },
+
               ].map((item, index) => (
                 <motion.div
                   key={index}

@@ -51,9 +51,9 @@ const Hero = () => {
           variants={fadeIn(0.3)}
           initial="hidden"
           animate="visible"
-          className="md:text-6xl text-4xl font-medium tracking-tighter"
+          className="md:text-[3rem] text-4xl font-medium tracking-tighter"
         >
-          Sales hiring is broken — slow, noisy, and full of costly mistakes.
+          Hiring for sales reps ? Stop wasting weeks on searching, screening and second-guessing.
         </motion.h1>
 
         <motion.p
@@ -62,8 +62,7 @@ const Hero = () => {
           animate="visible"
           className="md:text-lg text-sm max-w-xl text-neutral-700"
         >
-          Scooter helps SaaSBOOMi founders hire the right reps, faster — using
-          behavior science, not gut feel.
+          Get a high-fit shortlist. Fast, free and built for SaasBoomi Founders
         </motion.p>
 
         <motion.div
@@ -85,8 +84,8 @@ const Hero = () => {
         >
           <AvatarCirclesDemo />
           <p className="text-xs max-w-xs">
-            Join our early access program. No recruiter fees. Just signal-rich
-            shortlists, free for SaaSBOOMi founders.
+            Join our early access program. No recruiter fees.
+Free for SaaSBOOMi founders.
           </p>
         </motion.div>
       </div>

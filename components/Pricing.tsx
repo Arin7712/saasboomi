@@ -154,7 +154,7 @@ const Pricing = () => {
             <div className="flex flex-col gap-3 text-md pt-6">
               {[
                 "Saas or AI Startups",
-                "Teams with 3-50 people",
+                "Teams with 1-10 people",
                 "Founders hiring sales talent",
                 "Teams that want signal not noise",
               ].map((text, index) => (
