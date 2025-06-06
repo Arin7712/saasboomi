@@ -79,7 +79,7 @@ const About = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
-          className="rounded-lg bg-neutral-100 p-6 text-neutral-800 h-fit border-[1px] border-neutral-300 space-y-2 md:w-full w-[80%]"
+          className="rounded-lg bg-neutral-100 p-6 text-neutral-800 h-fit border-[1px] border-neutral-300 space-y-2 md:w-full w-[90%]"
         >
           <Image
             src="/2.jpg"
@@ -109,7 +109,7 @@ const About = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
-          className="rounded-lg bg-neutral-100 p-6 text-neutral-800 h-fit border-[1px] border-neutral-300 space-y-2 w-[80%] md:w-full"
+          className="rounded-lg bg-neutral-100 p-6 text-neutral-800 h-fit border-[1px] border-neutral-300 space-y-2 w-[90%] md:w-full"
         >
           <Image
             src="/1.jpg"
