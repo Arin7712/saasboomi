@@ -51,7 +51,7 @@ const Hero = () => {
           variants={fadeIn(0.3)}
           initial="hidden"
           animate="visible"
-          className="md:text-[3rem] text-4xl font-medium tracking-tighter"
+          className="md:text-[3rem] text-3xl font-medium tracking-tighter"
         >
           Hiring for sales reps ? Stop wasting weeks on searching, screening and second-guessing.
         </motion.h1>
