@@ -10,7 +10,7 @@ function Demo() {
         socialLinks={[
           {
             icon: <Linkedin className="h-5 w-5" />,
-            href: "https://twitter.com",
+            href: "https://www.linkedin.com/company/scooter-ai/",
             label: "Twitter",
           },
         ]}

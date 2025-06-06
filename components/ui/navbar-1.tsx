@@ -5,6 +5,25 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "motion/react"
 import { Menu, X } from "lucide-react"
 
+const navItems = [
+  {
+    name: 'Home',
+    href: '/hero'
+  },
+  {
+    name: 'About',
+    href: '/about'
+  },
+  {
+    name: 'Pricing',
+    href: '/pricing'
+  },
+  {
+    name: 'Contact',
+    href: '/contact'
+  }
+]
+
 const Navbar1 = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -35,16 +54,16 @@ const Navbar1 = () => {
         
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            {["Home", "About", "Pricing", "Contact"].map((item) => (
+            {navItems.map((item, index) => (
               <motion.div
-                key={item}
+                key={index}
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3 }}
                 whileHover={{ scale: 1.05 }}
               >
                 <a href="#" className="text-md text-neutral-900  transition-colors font-">
-                  {item}
+                  {item.name}
                 </a>
               </motion.div>
             ))}
@@ -93,16 +112,16 @@ const Navbar1 = () => {
               <X className="h-6 w-6 text-gray-900" />
             </motion.button>
             <div className="flex flex-col space-y-6">
-              {["Home", "Pricing", "Docs", "Projects"].map((item, i) => (
+              {navItems.map((item, i) => (
                 <motion.div
-                  key={item}
+                  key={i}
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.1 + 0.1 }}
                   exit={{ opacity: 0, x: 20 }}
                 >
                   <a href="#" className="text-base text-gray-900 font-medium" onClick={toggleMenu}>
-                    {item}
+                    {item.name}
                   </a>
                 </motion.div>
               ))}

@@ -15,6 +15,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Pricing2 from "@/components/Pricing2";
 import About from "@/components/About";
+import {Element} from 'react-scroll'
 
 // Variant generator with delay
 const fadeInUpWithDelay = (delay: number) => ({
@@ -33,7 +34,9 @@ const fadeInUpWithDelay = (delay: number) => ({
 const page = () => {
   return (
     <div>
+      <Element name="hero">
       <Hero />
+      </Element>
       <Benefit />
       <Pricing2/>
       <Pricing />

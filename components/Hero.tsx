@@ -42,7 +42,7 @@ const Hero = () => {
           variants={fadeIn(0.1)}
           initial="hidden"
           animate="visible"
-          className="bg-neutral-100 border-[1px] border-neutral-300 text-xs rounded-full px-8 py-1 uppercase z-50"
+          className="bg-neutral-100 border-[1px] border-neutral-300 text-xs rounded-full px-8 py-1 uppercase z-40"
         >
           <p>✨ Early access is limited</p>
         </motion.div>
@@ -71,7 +71,7 @@ const Hero = () => {
           animate="visible"
           className="flex items-center"
         >
-          <Button className="bg-neutral-800 px-6 rounded-full py-6 z-50 hover:cursor-pointer">
+          <Button className="bg-neutral-800 px-6 rounded-full py-6 z-40 hover:cursor-pointer">
             Apply for early access <ArrowRight className="size-5"/>
           </Button>
         </motion.div>
