@@ -119,7 +119,7 @@ const Benefit = () => {
                 {
                   icon: <Calendar1 />,
                   title: "1:1 Session",
-                  desc: "CTC, motion, role, messaging and onboarding",
+                  desc: "Clarity on ctc, motion, role, onboarding for your first hire",
                 },
 
               ].map((item, index) => (

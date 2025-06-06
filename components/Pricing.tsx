@@ -32,15 +32,6 @@ const Pricing = () => {
           viewport={{ once: true, amount: 0.3 }}
           className="flex flex-col gap-3 max-w-lg"
         >
-          <motion.div
-            variants={fadeInVariant(0.2)}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.3 }}
-            className="bg-[#cfff92] w-fit border-[1px] border-neutral-300 text-xs rounded-full px-6 py-1 uppercase z-50"
-          >
-            <p>✨ About</p>
-          </motion.div>
           <motion.h1
             variants={fadeInVariant(0.3)}
             initial="hidden"

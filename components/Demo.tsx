@@ -25,7 +25,7 @@ function Demo() {
           { href: "/terms", label: "Terms" },
         ]}
         copyright={{
-          text: "© 2025 SaasBoomi",
+          text: "© 2025 Scooter",
           license: "All rights reserved",
         }}
       />

@@ -34,7 +34,7 @@ export function Footer({
     <footer className="pb-6 pt-16 lg:pb-8 lg:pt-24 bg-neutral-900 text-white">
       <div className="px-4 lg:px-8">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl">SaasBoomi</h1>
+          <h1 className="text-2xl">Scooter</h1>
           <ul className="flex list-none mt-6 md:mt-0 space-x-3">
             {socialLinks.map((link, i) => (
               <li key={i}>

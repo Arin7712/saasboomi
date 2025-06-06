@@ -163,7 +163,7 @@ const Sales = () => {
               className="flex items-center gap-2"
             >
               <CircleCheckBig className="text-neutral-900 p-1 rounded-md bg-white" />
-              <h1 className="text-2xl font-medium">SaasBoomi way</h1>
+              <h1 className="text-2xl font-medium">SaasBoomi Special</h1>
             </motion.div>
 
             <motion.div
@@ -174,7 +174,7 @@ const Sales = () => {
               className="border-b-[1px] border-neutral-700 pb-4"
             >
               <h1 className="text-neutral-700 text-sm max-w-md">
-                Usually a shortlist for a role would cost RS 50000 or 2% of CTC (whichever id lower) but for SaasBoomi founders this is completely free in exchange of feedback on the project as we build
+                Usually a shortlist for a role would cost INR 50,000 or 2% of CTC (whichever is lower) but for SaasBoomi founders this is free in exchange of feedback on the product
               </h1>
             </motion.div>
 
