@@ -54,10 +54,10 @@ const Work = () => {
       {/* Plus Sign and Step Cards */}
       <div className="relative w-full max-w-2xl aspect-square mt-20">
         {/* Vertical Line */}
-        <div className="absolute inset-y-0 left-1/2 w-px transform -translate-x-1/2 opacity-60 bg-gradient-to-b from-white/50 via-white to-transparent"></div>
+        <div className="absolute inset-y-0 left-1/2 w-px transform -translate-x-1/2 opacity-60 bg-gradient-to-b from-transparent via-white to-transparent"></div>
 
         {/* Horizontal Line */}
-        <div className="absolute inset-x-0 top-1/2 h-px transform -translate-y-1/2 opacity-60 bg-gradient-to-r from-white/50 via-white to-transparent"></div>
+        <div className="absolute inset-x-0 top-1/2 h-px transform -translate-y-1/2 opacity-60 bg-gradient-to-r from-transparent via-white to-transparent"></div>
 
         {/* Ripple + Icon */}
         <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
