@@ -1,21 +1,21 @@
 "use client";
 
-import Benefit from "@/components/Benefit";
-import { Demo } from "@/components/Demo";
+import React, { useEffect } from "react";
 import Hero from "@/components/Hero";
-import { AnimatedGridPattern } from "@/components/magicui/grid-pattern";
+import Benefit from "@/components/Benefit";
+import Pricing2 from "@/components/Pricing2";
 import Pricing from "@/components/Pricing";
+import Work from "@/components/Work";
+import About from "@/components/About";
 import Testimonials from "@/components/Testimonials";
+import { Demo } from "@/components/Demo";
+import { AnimatedGridPattern } from "@/components/magicui/grid-pattern";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/ui/footer";
-import Work from "@/components/Work";
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
-import React from "react";
 import { motion } from "framer-motion";
-import Pricing2 from "@/components/Pricing2";
-import About from "@/components/About";
-import {Element} from 'react-scroll'
+import { Element } from "react-scroll";
 
 // Variant generator with delay
 const fadeInUpWithDelay = (delay: number) => ({
@@ -31,20 +31,39 @@ const fadeInUpWithDelay = (delay: number) => ({
   },
 });
 
-const page = () => {
+const Page = () => {
+  useEffect(() => {
+    // Load GA script
+    const script1 = document.createElement("script");
+    script1.src = "https://www.googletagmanager.com/gtag/js?id=G-DPJVDQGRN1";
+    script1.async = true;
+    document.head.appendChild(script1);
+
+    // Inject gtag config
+    const script2 = document.createElement("script");
+    script2.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DPJVDQGRN1', {
+        page_path: window.location.pathname,
+      });
+    `;
+    document.head.appendChild(script2);
+  }, []);
+
   return (
     <div>
       <Element name="hero">
-      <Hero />
+        <Hero />
       </Element>
       <Benefit />
-      <Pricing2/>
+      <Pricing2 />
       <Pricing />
       <Work />
-      <About/>
+      <About />
       <Testimonials />
 
-      {/* Sales section with animation */}
       <motion.div
         initial="hidden"
         whileInView="show"
@@ -68,7 +87,7 @@ const page = () => {
           className="space-y-3 flex flex-col items-center justify-center"
         >
           <h1 className="text-4xl tracking-tighter font-semibold md:max-w-xl">
-            Hiring for sales in the next 60 days ? Join now.
+            Hiring for sales in the next 60 days? Join now.
           </h1>
           <p className="text-md max-w-md">
             Join a handpicked group of SaaS and AI startup founders shaping the
@@ -95,4 +114,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
