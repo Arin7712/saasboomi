@@ -114,7 +114,7 @@ const Benefit = () => {
                 {
                   icon: <UserSearch />,
                   title: "1 high-signal shortlist for you next hire",
-                  desc: "See you candidates in action before your first interview",
+                  desc: "See your candidates in action before your first interview",
                 },
                 {
                   icon: <Calendar1 />,
