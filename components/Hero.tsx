@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React from "react";
 import { motion } from "framer-motion";
@@ -51,16 +51,19 @@ const Hero = () => {
           variants={fadeIn(0.3)}
           initial="hidden"
           animate="visible"
-          className="md:text-[3rem] text-3xl font-medium tracking-tighter"
+          className="md:text-[3rem] text-3xl font-medium tracking-tighter leading-10"
         >
-          Hiring for sales reps ? Stop wasting weeks on searching, screening and second-guessing.
+          Hiring for sales reps ?<br />{" "}
+          <span className="md:text-[1.5rem] text-2xl tracking-tighter">
+            Stop wasting weeks on searching, screening and second-guessing.
+          </span>
         </motion.h1>
 
         <motion.p
           variants={fadeIn(0.5)}
           initial="hidden"
           animate="visible"
-          className="md:text-lg text-sm max-w-xl text-neutral-700"
+          className="md:text-lg text-sm max-w-xl text-neutral-600"
         >
           Get a high-fit shortlist. Fast, free and built for SaasBoomi Founders
         </motion.p>
@@ -72,7 +75,7 @@ const Hero = () => {
           className="flex items-center"
         >
           <Button className="bg-neutral-800 px-6 rounded-full py-6 z-40 hover:cursor-pointer">
-            Apply for early access <ArrowRight className="size-5"/>
+            Apply for early access <ArrowRight className="size-5" />
           </Button>
         </motion.div>
 
@@ -84,8 +87,8 @@ const Hero = () => {
         >
           <AvatarCirclesDemo />
           <p className="text-xs max-w-xs">
-            Join our early access program. No recruiter fees.
-Free for SaaSBOOMi founders.
+            Join our early access program. No recruiter fees. Free for SaaSBOOMi
+            founders.
           </p>
         </motion.div>
       </div>
