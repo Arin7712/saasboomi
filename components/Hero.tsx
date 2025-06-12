@@ -23,14 +23,14 @@ const fadeIn = (delay = 0) => ({
 
 const Hero = () => {
   return (
-    <div className="flex md:justify-center md:items-center h-screen md:pt-0 pt-[10rem] relative overflow-hidden">
+    <div className="flex md:justify-center md:items-center h-screen md:h-[90vh] md:pt-0 pt-[10rem] relative overflow-hidden">
       <AnimatedGridPattern
         numSquares={20}
         maxOpacity={0.1}
         duration={3}
         repeatDelay={1}
         className={cn(
-          "absolute inset-0 w-full h-full opacity-58",
+          "absolute inset-0 w-full h-screen opacity-58",
           "[mask-image:linear-gradient(to_bottom,white_52%,transparent)]",
           "mask-size-100 mask-repeat-no-repeat",
           "pointer-events-none"
@@ -51,12 +51,12 @@ const Hero = () => {
           variants={fadeIn(0.3)}
           initial="hidden"
           animate="visible"
-          className="md:text-[3rem] text-3xl font-medium tracking-tighter leading-10"
+          className="md:text-[1.5rem] text-2xl tracking-tighter md:leading-normal leading-tight"
         >
-          Hiring for sales reps ?<br />{" "}
-          <span className="md:text-[1.5rem] text-2xl tracking-tighter md:leading-normal leading-tight">
-            Stop wasting weeks on searching, screening and second-guessing.
+          <span className="md:text-[4rem] text-3xl font-medium tracking-tighter leading-10">
+            Hiring sales reps ?
           </span>
+          <br /> Stop wasting weeks on searching, screening and second-guessing.
         </motion.h1>
 
         <motion.p
