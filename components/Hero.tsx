@@ -37,7 +37,7 @@ const Hero = () => {
         )}
       />
 
-      <div className="flex flex-col md:justify-center items-center text-center md:px-0 px-6 md:max-w-3xl gap-6 text-neutral-800">
+      <div className="flex flex-col md:justify-center items-center text-center md:px-0 px-3 md:max-w-3xl gap-6 text-neutral-800">
         <motion.div
           variants={fadeIn(0.1)}
           initial="hidden"
@@ -54,7 +54,7 @@ const Hero = () => {
           className="md:text-[3rem] text-3xl font-medium tracking-tighter leading-10"
         >
           Hiring for sales reps ?<br />{" "}
-          <span className="md:text-[1.5rem] text-2xl tracking-tighter">
+          <span className="md:text-[1.5rem] text-2xl tracking-tighter md:leading-normal leading-tight">
             Stop wasting weeks on searching, screening and second-guessing.
           </span>
         </motion.h1>
