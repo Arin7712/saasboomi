@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar1 } from "@/components/ui/navbar-1";
+import { Analytics } from "@vercel/analytics/next"
+
 
 const font = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -16,6 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Analytics/>
       <body
         className={font.className}
       >
